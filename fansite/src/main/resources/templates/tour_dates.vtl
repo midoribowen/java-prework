@@ -1,0 +1,117 @@
+<h1>Upcoming Shows:</h1>
+<table border=1px>
+  <tr>
+    <td><b>Date</b></td>
+    <td><b>Venue</b></td>
+    <td><b>Location</b></td>
+    <td><b>Time</b></td>
+    <td><b>Ticket Price</b></td>
+  </tr>
+  <tr>
+    <td>2/14/1992</td>
+    <td>Kokusai Koryu Center</td>
+    <td>Osaka, Japan</td>
+    <td>8:00 PM</td>
+    <td>5000 &#165;</td>
+  </tr>
+  <tr>
+    <td>2/16/1992</td>
+    <td>Club Quattro</td>
+    <td>Nagoya, Japan</td>
+    <td>8:00 PM</td>
+    <td>5000 &#165;</td>
+  </tr>
+  <tr>
+    <td>2/17/1992</td>
+    <td>Club Citta</td>
+    <td>Kawasaki, Japan</td>
+    <td>8:00 PM</td>
+    <td>5000 &#165;</td>
+  </tr>
+  <tr>
+    <td>2/19/1992</td>
+    <td>Nakano Sunplaza</td>
+    <td>Tokyo, Japan</td>
+    <td>8:00 PM</td>
+    <td>5000 &#165;</td>
+  </tr>
+</table>
+
+<h1>Order Tickets:</h1>
+<form action="/tickets">
+  <div class="form-group">
+    <label for="show-date">Show Date</label>
+    <input id="show-date" name="show-date" class="form-control" type="radio" value="2/14/1992">2/14/1992
+    <input id="show-date" name="show-date" class="form-control" type="radio" value="2/16/1992">2/16/1992
+    <input id="show-date" name="show-date" class="form-control" type="radio" value="2/17/1992">2/17/1992
+    <input id="show-date" name="show-date" class="form-control" type="radio" value="2/19/1992">2/19/1992
+  </div>
+  <div class="form-group">
+    <label for="email">E-mail Address</label>
+    <input id="email" name="email" class="form-control" type="text">
+  </div>
+  <h3>Shipping Address:</h3>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input id="name" name="name" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="address">Address</label>
+    <input id="address" name="address" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="city">City</label>
+    <input id="city" name="city" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="state">State/Province</label>
+    <input id="state" name="state" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="code">Zip Code</label>
+    <input id="code" name="code" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="country">Country</label>
+    <input id="country" name="country" class="form-control" type="text">
+  </div>
+  <h3>Billing:</h3>
+  <div class="form-group">
+    <label for="credit">Credit Card Number</label>
+    <input id="credit" name="credit" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="expiration">Expiration Date</label>
+    <input id="expiration" name="expiration" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="cvv">CVV Code</label>
+    <input id="cvv" name="cvv" class="form-control" type="text">
+  </div>
+  <h3>Billing Address:</h3>
+  <div class="form-group">
+    <label for="bill-name">Name</label>
+    <input id="bill-name" name="bill-name" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="bill-address">Address</label>
+    <input id="bill-address" name="bill-address" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="bill-city">City</label>
+    <input id="bill-city" name="bill-city" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="bill-state">State/Province</label>
+    <input id="bill-state" name="bill-state" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="bill-code">Zip Code</label>
+    <input id="bill-code" name="bill-code" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="bill-country">Country</label>
+    <input id="bill-country" name="bill-country" class="form-control" type="text">
+  </div>
+  <button type="submit" class="btn">Order Now!</button>
+</form>

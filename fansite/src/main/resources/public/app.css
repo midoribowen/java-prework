@@ -1,0 +1,33 @@
+body {
+  background-color: #A6A6A6;
+  font-family: Helvetica;
+  color: #0D0D0D;
+  padding: 5px;
+}
+
+header {
+  background-color: #EFEFEF;
+  border: 1px solid #8C8C8C;
+}
+
+h1 {
+  font-family: Didot, serif;
+  color: #FFFF00;
+  font-size: 400%;
+}
+
+main {
+  background-color: #000000;
+  border: 1px solid: #EFEFEF;
+  color: #EFEFEF;
+}
+
+h2.content {
+  color: #1A1A1A;
+  text-decoration: underline;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
